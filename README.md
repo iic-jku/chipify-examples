@@ -42,7 +42,7 @@ The GUI also needs the Qt system libraries described in
 [Chipify's prerequisites](https://github.com/santihofi/chipify#prerequisites).
 
 These tutorials were validated against Chipify commit
-[`1960c81`](https://github.com/santihofi/chipify/commit/1960c8132a68676c9aa496f267d135d6f5af2d74).
+[`ad19643`](https://github.com/santihofi/chipify/commit/ad196436de581ce76010b8cc61fc04ece2cab80c).
 The source install below includes the netlist-import, reports, and batch
 features used here; older PyPI installations may not include all of them.
 
@@ -51,7 +51,7 @@ git clone https://github.com/santihofi/chipify-examples.git
 cd chipify-examples
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install "git+https://github.com/santihofi/chipify.git@1960c8132a68676c9aa496f267d135d6f5af2d74"
+python -m pip install "git+https://github.com/santihofi/chipify.git@ad196436de581ce76010b8cc61fc04ece2cab80c"
 ngspice --version
 chipify-cli --version
 

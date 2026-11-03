@@ -8,7 +8,7 @@ chipify_source="${CHIPIFY_SOURCE:-${examples_root}/../chipify}"
 iic_image="${CHIPIFY_IIC_IMAGE:-hpretl/iic-osic-tools:latest}"
 
 if [[ ! -f "${chipify_source}/chipify/__init__.py" ]]; then
-    echo "Set CHIPIFY_SOURCE to your Chipify checkout (tested: 1960c81)." >&2
+    echo "Set CHIPIFY_SOURCE to your Chipify checkout (tested: ad19643)." >&2
     exit 1
 fi
 chipify_source="$(cd -- "${chipify_source}" && pwd)"
